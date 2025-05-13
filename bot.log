@@ -1,0 +1,163 @@
+2025-05-12 20:22:48,736 - root - INFO - Бот инициализирован
+2025-05-12 20:22:49,142 - __main__ - ERROR - Ошибка при обработке обновления: name 'staff_show_requests' is not defined
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\handlers\common_handlers.py", line 26, in message_handler
+    await staff_show_requests(update, context)
+          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'staff_show_requests' is not defined
+2025-05-12 20:23:02,680 - __main__ - ERROR - Ошибка при обработке обновления: name 'staff_start' is not defined
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\handlers\common_handlers.py", line 65, in start
+    await staff_start(update, context)
+          ^^^^^^^^^^^
+NameError: name 'staff_start' is not defined
+2025-05-12 20:23:04,817 - __main__ - ERROR - Ошибка при обработке обновления: name 'staff_start' is not defined
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\handlers\common_handlers.py", line 65, in start
+    await staff_start(update, context)
+          ^^^^^^^^^^^
+NameError: name 'staff_start' is not defined
+2025-05-12 20:23:11,984 - root - INFO - Бот инициализирован
+2025-05-12 20:23:20,652 - __main__ - ERROR - Ошибка при обработке обновления: name 'datetime' is not defined
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_conversationhandler.py", line 825, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\utils\decorators.py", line 9, in wrapped
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\handlers\client_handlers.py", line 28, in client_request_operator
+    active_requests[user.id] = {'user': user, 'timestamp': datetime.now()}
+                                                           ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'?
+2025-05-12 20:25:45,355 - root - INFO - Бот инициализирован
+2025-05-12 20:25:47,928 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 20:25:52,540 - __main__ - ERROR - Ошибка при обработке обновления: name 'staff_show_requests' is not defined
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\handlers\common_handlers.py", line 26, in message_handler
+    await staff_show_requests(update, context)
+          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'staff_show_requests' is not defined
+2025-05-12 20:59:30,779 - root - INFO - Бот инициализирован
+2025-05-12 20:59:33,263 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 20:59:55,759 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7908482203
+2025-05-12 21:00:00,517 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 21:00:08,162 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7908482203
+2025-05-12 21:02:31,738 - root - INFO - Бот инициализирован
+2025-05-12 21:02:38,642 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 21:03:15,864 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7908482203
+2025-05-12 21:13:58,852 - root - INFO - Бот инициализирован
+2025-05-12 21:14:07,856 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 21:14:18,321 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7908482203
+2025-05-12 22:41:23,280 - root - INFO - Бот инициализирован
+2025-05-12 22:41:28,100 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7908482203
+2025-05-12 22:41:47,737 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 22:42:03,465 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7908482203
+2025-05-12 22:42:19,339 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 22:44:59,190 - root - INFO - Бот инициализирован
+2025-05-12 22:45:53,787 - root - INFO - Бот инициализирован
+2025-05-12 22:46:05,734 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 22:46:52,848 - root - INFO - Бот инициализирован
+2025-05-12 22:46:58,964 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 22:47:06,039 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 22:48:40,150 - root - INFO - Бот инициализирован
+2025-05-12 22:48:46,365 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 22:49:04,272 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 22:57:02,068 - root - INFO - Бот инициализирован
+2025-05-12 22:57:06,327 - __main__ - ERROR - Ошибка при обработке обновления: The parameter `keyboard` should be a sequence of sequences of strings or KeyboardButtons
+Traceback (most recent call last):
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2proverka\handlers\common_handlers.py", line 62, in start
+    await client_start(update, context)
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2proverka\utils\decorators.py", line 9, in wrapped
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2proverka\handlers\client_handlers.py", line 20, in client_start
+    reply_markup=get_client_main_keyboard()
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2proverka\config\keyboards.py", line 4, in get_client_main_keyboard
+    return ReplyKeyboardMarkup([
+        [KeyboardButton("📞 Связаться с оператором")],
+        [KeyboardButton("🏘️ Наши объекты"),[KeyboardButton("📍 Контакты"), KeyboardButton("ℹ️ О компании")], KeyboardButton("📋 Услуги")]
+    ], resize_keyboard=True)
+  File "C:\Users\havch\PycharmProjects\aspekt_bot2\.venv\Lib\site-packages\telegram\_replykeyboardmarkup.py", line 144, in __init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The parameter `keyboard` should be a sequence of sequences of strings or KeyboardButtons
+2025-05-12 22:57:22,981 - root - INFO - Бот инициализирован
+2025-05-12 22:57:28,610 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 22:57:35,871 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 23:17:39,726 - root - INFO - Бот инициализирован
+2025-05-12 23:17:48,535 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 23:17:50,721 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-12 23:17:55,216 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: Пкиаие
+2025-05-12 23:17:58,581 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: вапрвапр,
+2025-05-12 23:18:01,286 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: 🔴 Завершить диалог
+2025-05-12 23:18:01,535 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 23:18:11,608 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 23:18:12,725 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-12 23:18:26,360 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: Иаптп
+2025-05-12 23:18:28,525 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 🔴 Завершить диалог
+2025-05-12 23:18:28,767 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-12 23:20:48,906 - root - INFO - Бот инициализирован
+2025-05-12 23:20:58,155 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-12 23:21:02,124 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-12 23:21:07,731 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: Ппппп
+2025-05-12 23:21:09,033 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: илджсчмд
+2025-05-12 23:21:10,178 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: чмсильчс
+2025-05-12 23:21:11,321 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: ижчсмдлитч
+2025-05-12 23:21:13,859 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: П
+2025-05-12 23:21:14,400 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: Е
+2025-05-12 23:21:14,937 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: П
+2025-05-12 23:21:20,555 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: А
+2025-05-12 23:23:50,407 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 🔴 Завершить диалог
+2025-05-12 23:23:50,853 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-13 00:10:33,378 - root - INFO - Бот инициализирован
+2025-05-13 00:16:30,917 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-13 00:16:54,680 - root - INFO - Бот инициализирован
+2025-05-13 09:49:16,964 - root - INFO - Бот инициализирован
+2025-05-13 09:49:33,340 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-13 09:49:36,485 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-13 09:49:40,221 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: fgdf
+2025-05-13 09:49:45,831 - handlers.common_handlers - INFO - Получено сообщение от 7552613137: Татата
+2025-05-13 09:49:50,188 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 🔴 Завершить диалог
+2025-05-13 09:49:50,413 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-13 11:01:16,650 - root - INFO - Бот инициализирован
+2025-05-13 11:01:37,659 - utils.helpers - INFO - Отправка уведомлений о новом запросе от 7552613137
+2025-05-13 11:01:40,793 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 📊 Активные запросы
+2025-05-13 11:01:59,876 - handlers.common_handlers - INFO - Получено сообщение от 7803130549: 🔴 Завершить диалог
+2025-05-13 11:02:00,369 - utils.helpers - INFO - Чат завершен: оператор 7803130549 - клиент 7552613137
+2025-05-13 11:15:23,921 - root - INFO - Бот инициализирован
